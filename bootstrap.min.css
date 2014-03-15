@@ -5,15 +5,16 @@
         font-family: 'entypo', sans-serif;
         }
 @font-face {
-  font-family:'mplus-1p-medium';
-  src: url('fonts/mplus-1p-medium-sub.eot') format('eot');
-  src: url('fonts/mplus-1p-medium-sub.woff') format('woff');
-  src: url('fonts/mplus-1p-medium-sub.ttf') format('truetype');
+  font-family: Koruri;
+  src: url(http://koruri.lindwurm.biz/webfont/Koruri.eot) format('eot');
+  src: url(http://koruri.lindwurm.biz/webfont/Koruri.woff) format('woff');
+  src: url(http://koruri.lindwurm.biz/webfont/Koruri.ttf) format('truetype');
 }
 
 body {
-  font-family: 'mplus-1p-medium';
+ font-family: Koruri !important;
 }
+
 /*!
  * Bootswatch v3.1.1
  * Homepage: http://bootswatch.com
