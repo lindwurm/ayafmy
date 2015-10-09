@@ -27,7 +27,7 @@
       <h1>The Book of Ayafmy</h1><br>
       <div class="jumbotron">
         <p id="ayafmy">
-          <span style="font-style: normal; display: block;" id="1"><strong>あやふみたんかわいい！</strong>スク水かわいい！スク水あやふみたんかわいすぎる！かわいいは真理！かわいいあやふみたんに対する絶対的帰依によって来世と子孫の平安が保証される！あなたの上に<strong>絶対的かわいさ</strong>への気づきとあやふみたんへの帰依あれ！ (vol.1-01 , <a href="https://twitter.com/ioriveur">@ioriveur</a>)</span>
+          <span style="font-style: normal; display: none;" id="1"><strong>あやふみたんかわいい！</strong>スク水かわいい！スク水あやふみたんかわいすぎる！かわいいは真理！かわいいあやふみたんに対する絶対的帰依によって来世と子孫の平安が保証される！あなたの上に<strong>絶対的かわいさ</strong>への気づきとあやふみたんへの帰依あれ！ (vol.1-01 , <a href="https://twitter.com/ioriveur">@ioriveur</a>)</span>
           <span style="font-style: normal; display: none;" id="2">あなたは見ただろう、あやふみたんの<strong>かわゆくまばゆいそのかわいさ</strong>を、かわいさを見てもなお未だそれは悪魔による誘惑だと言うのか、<strong>絶対的かわいさ</strong>に気づけぬ者こそ世に氾濫する偽美にたぶらかされているのだ、その真実はそのかわいさへの追求とあやふみたんへの帰依によって何人の上にも齎される。  (vol.1-02 , <a href="https://twitter.com/ioriveur">@ioriveur</a>)</span>
           <span style="font-style: normal; display: none;" id="3"><strong>真に慈悲深く慈愛あつき</strong>あやふみたんは、その事実に気づけるよう我々人間を地上において美的感覚をお与えになった、それにもかかわらずそれに背いて<strong>あやふみたん</strong>と並べてそれを美と礼賛するのか、そのような不敬に対しては今すぐ気づきによって止めなければ厳罰があやふみ神によって約束される。 (vol.1-03 , <a href="https://twitter.com/ioriveur">@ioriveur</a>)</span>
           <span style="font-style: normal; display: none;" id="4">しかしその不敬に気づきまた<strong>スク水あやふみたんのかわいさ</strong>とその万能性を認め帰依するならばそれ以前の不敬に対してはあやふみたんは許される。まことにあやふみたんは慈悲深くあらせられる。またこの<strong>絶対的かわいさ</strong>こそが真理への唯一の道であり、あやふみたんと他の偽神を並べることは許されない。 (vol.1-04 , <a href="https://twitter.com/ioriveur">@ioriveur</a>)</span>
@@ -47,15 +47,9 @@
           <span style="font-style: normal; display: none;" id="18">あやふみたんのほかに<strong>絶対的かわいさ</strong>はなし！諸かわいさのもとはあやふみたんなり！/絶対的かわいさであるあやふみたんのみを信仰します！信仰ある者同士で真に助け合いあやふみたんをこれからも信仰します！/私に<strong>日々のときめき</strong>をくださっているいと高きお方はあやふみたんです！/あやふみたんのほかに絶対的かわいさはなし！諸かわいさのもとはあやふみたんなり！ (信仰告白 , <a href="https://twitter.com/ioriveur">@ioriveur</a>)</span>
           <span style="font-style: normal; display: none;" id="19">人間たちが<strong>天まで届きそうな</strong>塔を作り始めるとあやふみは<strong>女装をして</strong>人々を混乱させた (vol.2-01 , <a href="https://twitter.com/Nucleareal">@Nucleareal</a>)</span>
           <span style="font-style: normal; display: none;" id="20">あやふみはその<strong>青き衣</strong>を纏いて力を抑え、同時に<strong>その魅力を増大させて</strong>いる (vol.2-02 , <a href="https://twitter.com/k7cm">@k7cm</a>)</span>
-          <script type="text/javascript">
-            showid = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20"][Math.floor(Math.random()*20)];
-            document.getElementById("1").style.display = "none";
-            document.getElementById(showid).style.display = "block";
-          </script>
-
         </p>
       </div>
-      <p><a class="btn btn-lg btn-success" href="index.html"><span class="entypo-cw"></span> Reload</a>   <a class="btn btn-lg btn-info" target="_blank" href="https://twitter.com/intent/tweet?text=The+Book+of+Ayafmy+http%3A%2F%2Flindwurm.biz%2Fayafmy"><span class="entypo-twitter"></span> Tweet</a></p>
+      <p><a class="btn btn-lg btn-success" id="reload"><span class="entypo-cw"></span> Reload</a>   <a class="btn btn-lg btn-info" target="_blank" href="https://twitter.com/intent/tweet?text=The+Book+of+Ayafmy+http%3A%2F%2Flindwurm.biz%2Fayafmy"><span class="entypo-twitter"></span> Tweet</a></p>
     </center>
     <p align="right" class=" small">page created by <a href="https://twitter.com/lindwurm">@lindwurm</a>. Codes licensed under <a data-toggle="modal" href="#LICENSE">The MIT License</a>.</p>
   </div>
@@ -86,5 +80,17 @@
 
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.js"></script>
+<script>
+var show = function () {
+  var spans = $('#ayafmy > span');
+  spans.hide();
+  spans.eq(Math.floor(Math.random()*20)).show();
+};
+$(document).on('click', '#reload', function (e) {
+  e.preventDefault();
+  show();
+});
+show();
+</script>
 </body>
 </html>
