@@ -1,0 +1,162 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot?406bj6');
+	src:url('../fonts/icomoon.eot?406bj6#iefix') format('embedded-opentype'),
+		url('../fonts/icomoon.ttf?406bj6') format('truetype'),
+		url('../fonts/icomoon.woff?406bj6') format('woff'),
+		url('../fonts/icomoon.svg?406bj6#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+	font-family: 'icomoon' !important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-user:before {
+	content: "\f007";
+}
+.icon-home:before {
+	content: "\f015";
+}
+.icon-download:before {
+	content: "\f019";
+}
+.icon-repeat:before {
+	content: "\f01e";
+}
+.icon-rotate-right:before {
+	content: "\f01e";
+}
+.icon-gift:before {
+	content: "\f06b";
+}
+.icon-leaf:before {
+	content: "\f06c";
+}
+.icon-shopping-cart:before {
+	content: "\f07a";
+}
+.icon-thumbs-o-up:before {
+	content: "\f087";
+}
+.icon-trophy:before {
+	content: "\f091";
+}
+.icon-twitter:before {
+	content: "\f099";
+}
+.icon-github:before {
+	content: "\f09b";
+}
+.icon-globe:before {
+	content: "\f0ac";
+}
+.icon-wrench:before {
+	content: "\f0ad";
+}
+.icon-google-plus:before {
+	content: "\f0d5";
+}
+.icon-dashboard:before {
+	content: "\f0e4";
+}
+.icon-cloud-download:before {
+	content: "\f0ed";
+}
+.icon-laptop:before {
+	content: "\f109";
+}
+.icon-mobile:before {
+	content: "\f10b";
+}
+.icon-github-alt:before {
+	content: "\f113";
+}
+.icon-game:before {
+	content: "\f11b";
+}
+.icon-keyboard-o:before {
+	content: "\f11c";
+}
+.icon-terminal:before {
+	content: "\f120";
+}
+.icon-code:before {
+	content: "\f121";
+}
+.icon-add-on:before {
+	content: "\f12e";
+}
+.icon-rocket:before {
+	content: "\f135";
+}
+.icon-html5:before {
+	content: "\f13b";
+}
+.icon-css3:before {
+	content: "\f13c";
+}
+.icon-unlock:before {
+	content: "\f13e";
+}
+.icon-3-dot-menu:before {
+	content: "\f142";
+}
+.icon-thumbs-up:before {
+	content: "\f164";
+}
+.icon-tumblr:before {
+	content: "\f173";
+}
+.icon-android:before {
+	content: "\f17b";
+}
+.icon-language:before {
+	content: "\f1ab";
+}
+.icon-steam:before {
+	content: "\f1b6";
+}
+.icon-recycle:before {
+	content: "\f1b8";
+}
+.icon-soundcloud:before {
+	content: "\f1be";
+}
+.icon-sliders:before {
+	content: "\f1de";
+}
+.icon-cake:before {
+	content: "\f1fd";
+}
+.icon-lastfm:before {
+	content: "\f202";
+}
+.icon-chrome:before {
+	content: "\f268";
+}
+.icon-firefox:before {
+	content: "\f269";
+}
+.icon-amazon:before {
+	content: "\f270";
+}
+.icon-usb:before {
+	content: "\f287";
+}
+.icon-mixcloud:before {
+	content: "\f289";
+}
+
